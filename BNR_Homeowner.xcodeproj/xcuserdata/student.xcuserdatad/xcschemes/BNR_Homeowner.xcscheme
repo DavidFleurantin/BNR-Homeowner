@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3F0535111CCA898200FCF2CB"
+               BuildableName = "BNR_Homeowner.app"
+               BlueprintName = "BNR_Homeowner"
+               ReferencedContainer = "container:BNR_Homeowner.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3F0535251CCA898300FCF2CB"
+               BuildableName = "BNR_HomeownerTests.xctest"
+               BlueprintName = "BNR_HomeownerTests"
+               ReferencedContainer = "container:BNR_Homeowner.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3F0535301CCA898300FCF2CB"
+               BuildableName = "BNR_HomeownerUITests.xctest"
+               BlueprintName = "BNR_HomeownerUITests"
+               ReferencedContainer = "container:BNR_Homeowner.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3F0535111CCA898200FCF2CB"
+            BuildableName = "BNR_Homeowner.app"
+            BlueprintName = "BNR_Homeowner"
+            ReferencedContainer = "container:BNR_Homeowner.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3F0535111CCA898200FCF2CB"
+            BuildableName = "BNR_Homeowner.app"
+            BlueprintName = "BNR_Homeowner"
+            ReferencedContainer = "container:BNR_Homeowner.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3F0535111CCA898200FCF2CB"
+            BuildableName = "BNR_Homeowner.app"
+            BlueprintName = "BNR_Homeowner"
+            ReferencedContainer = "container:BNR_Homeowner.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

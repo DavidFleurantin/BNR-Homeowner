@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F0535161CCA898200FCF2CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0535151CCA898200FCF2CB /* AppDelegate.swift */; };
-		3F0535181CCA898200FCF2CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0535171CCA898200FCF2CB /* ViewController.swift */; };
-		3F05351B1CCA898200FCF2CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0535191CCA898200FCF2CB /* Main.storyboard */; };
-		3F05351D1CCA898200FCF2CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F05351C1CCA898200FCF2CB /* Assets.xcassets */; };
-		3F0535201CCA898200FCF2CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F05351E1CCA898200FCF2CB /* LaunchScreen.storyboard */; };
-		3F05352B1CCA898300FCF2CB /* BNR_HomeownerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F05352A1CCA898300FCF2CB /* BNR_HomeownerTests.swift */; };
-		3F0535361CCA898300FCF2CB /* BNR_HomeownerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0535351CCA898300FCF2CB /* BNR_HomeownerUITests.swift */; };
+		3F7B04CA1CCA8AC500546908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B04C91CCA8AC500546908 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		3F7B04CC1CCA8ACA00546908 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B04CB1CCA8ACA00546908 /* Item.swift */; settings = {ASSET_TAGS = (); }; };
+		3F7B04CE1CCA8ACF00546908 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B04CD1CCA8ACF00546908 /* ItemStore.swift */; settings = {ASSET_TAGS = (); }; };
+		3F7B04D01CCA8AD300546908 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B04CF1CCA8AD300546908 /* ItemsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3F7B04D21CCA8AD800546908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B04D11CCA8AD800546908 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		3F7B04D51CCA8ADC00546908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B04D41CCA8ADC00546908 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		3F7B04D71CCA8AE000546908 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B04D61CCA8AE000546908 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		3F7B04DA1CCA8B8900546908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B04D81CCA8B8900546908 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +36,16 @@
 
 /* Begin PBXFileReference section */
 		3F0535121CCA898200FCF2CB /* BNR_Homeowner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNR_Homeowner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F0535151CCA898200FCF2CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F0535171CCA898200FCF2CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F05351A1CCA898200FCF2CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F05351C1CCA898200FCF2CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F05351F1CCA898200FCF2CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F0535211CCA898200FCF2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F0535261CCA898300FCF2CB /* BNR_HomeownerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNR_HomeownerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F05352A1CCA898300FCF2CB /* BNR_HomeownerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNR_HomeownerTests.swift; sourceTree = "<group>"; };
-		3F05352C1CCA898300FCF2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F0535311CCA898300FCF2CB /* BNR_HomeownerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNR_HomeownerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F0535351CCA898300FCF2CB /* BNR_HomeownerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNR_HomeownerUITests.swift; sourceTree = "<group>"; };
-		3F0535371CCA898300FCF2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7B04C91CCA8AC500546908 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../../Downloads/Homeowner-master-4/Homeowner/AppDelegate.swift"; sourceTree = "<group>"; };
+		3F7B04CB1CCA8ACA00546908 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = "../../../../Downloads/Homeowner-master-4/Homeowner/Item.swift"; sourceTree = "<group>"; };
+		3F7B04CD1CCA8ACF00546908 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemStore.swift; path = "../../../../Downloads/Homeowner-master-4/Homeowner/ItemStore.swift"; sourceTree = "<group>"; };
+		3F7B04CF1CCA8AD300546908 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemsViewController.swift; path = "../../../../Downloads/Homeowner-master-4/Homeowner/ItemsViewController.swift"; sourceTree = "<group>"; };
+		3F7B04D11CCA8AD800546908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/Homeowner-master-4/Homeowner/Assets.xcassets"; sourceTree = "<group>"; };
+		3F7B04D31CCA8ADC00546908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F7B04D61CCA8AE000546908 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../Downloads/Homeowner-master-4/Homeowner/Info.plist"; sourceTree = "<group>"; };
+		3F7B04D91CCA8B8900546908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/Homeowner-master-4/Homeowner/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				3F0535141CCA898200FCF2CB /* BNR_Homeowner */,
-				3F0535291CCA898300FCF2CB /* BNR_HomeownerTests */,
-				3F0535341CCA898300FCF2CB /* BNR_HomeownerUITests */,
 				3F0535131CCA898200FCF2CB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,32 +94,16 @@
 		3F0535141CCA898200FCF2CB /* BNR_Homeowner */ = {
 			isa = PBXGroup;
 			children = (
-				3F0535151CCA898200FCF2CB /* AppDelegate.swift */,
-				3F0535171CCA898200FCF2CB /* ViewController.swift */,
-				3F0535191CCA898200FCF2CB /* Main.storyboard */,
-				3F05351C1CCA898200FCF2CB /* Assets.xcassets */,
-				3F05351E1CCA898200FCF2CB /* LaunchScreen.storyboard */,
-				3F0535211CCA898200FCF2CB /* Info.plist */,
+				3F7B04C91CCA8AC500546908 /* AppDelegate.swift */,
+				3F7B04D81CCA8B8900546908 /* Main.storyboard */,
+				3F7B04CB1CCA8ACA00546908 /* Item.swift */,
+				3F7B04CD1CCA8ACF00546908 /* ItemStore.swift */,
+				3F7B04CF1CCA8AD300546908 /* ItemsViewController.swift */,
+				3F7B04D11CCA8AD800546908 /* Assets.xcassets */,
+				3F7B04D41CCA8ADC00546908 /* LaunchScreen.storyboard */,
+				3F7B04D61CCA8AE000546908 /* Info.plist */,
 			);
 			path = BNR_Homeowner;
-			sourceTree = "<group>";
-		};
-		3F0535291CCA898300FCF2CB /* BNR_HomeownerTests */ = {
-			isa = PBXGroup;
-			children = (
-				3F05352A1CCA898300FCF2CB /* BNR_HomeownerTests.swift */,
-				3F05352C1CCA898300FCF2CB /* Info.plist */,
-			);
-			path = BNR_HomeownerTests;
-			sourceTree = "<group>";
-		};
-		3F0535341CCA898300FCF2CB /* BNR_HomeownerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3F0535351CCA898300FCF2CB /* BNR_HomeownerUITests.swift */,
-				3F0535371CCA898300FCF2CB /* Info.plist */,
-			);
-			path = BNR_HomeownerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +168,7 @@
 		3F05350A1CCA898200FCF2CB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = SHP;
 				TargetAttributes = {
@@ -228,9 +210,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0535201CCA898200FCF2CB /* LaunchScreen.storyboard in Resources */,
-				3F05351D1CCA898200FCF2CB /* Assets.xcassets in Resources */,
-				3F05351B1CCA898200FCF2CB /* Main.storyboard in Resources */,
+				3F7B04D21CCA8AD800546908 /* Assets.xcassets in Resources */,
+				3F7B04D51CCA8ADC00546908 /* LaunchScreen.storyboard in Resources */,
+				3F7B04D71CCA8AE000546908 /* Info.plist in Resources */,
+				3F7B04DA1CCA8B8900546908 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +238,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0535181CCA898200FCF2CB /* ViewController.swift in Sources */,
-				3F0535161CCA898200FCF2CB /* AppDelegate.swift in Sources */,
+				3F7B04CC1CCA8ACA00546908 /* Item.swift in Sources */,
+				3F7B04D01CCA8AD300546908 /* ItemsViewController.swift in Sources */,
+				3F7B04CA1CCA8AC500546908 /* AppDelegate.swift in Sources */,
+				3F7B04CE1CCA8ACF00546908 /* ItemStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F05352B1CCA898300FCF2CB /* BNR_HomeownerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0535361CCA898300FCF2CB /* BNR_HomeownerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,20 +275,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F0535191CCA898200FCF2CB /* Main.storyboard */ = {
+		3F7B04D41CCA8ADC00546908 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F05351A1CCA898200FCF2CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3F05351E1CCA898200FCF2CB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F05351F1CCA898200FCF2CB /* Base */,
+				3F7B04D31CCA8ADC00546908 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = "../../../../Downloads/Homeowner-master-4/Homeowner";
+			sourceTree = "<group>";
+		};
+		3F7B04D81CCA8B8900546908 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7B04D91CCA8B8900546908 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -396,10 +380,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BNR_Homeowner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.shp.BNR-Homeowner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -407,6 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BNR_Homeowner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.shp.BNR-Homeowner";
@@ -481,6 +468,7 @@
 				3F05353C1CCA898300FCF2CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F05353D1CCA898300FCF2CB /* Build configuration list for PBXNativeTarget "BNR_HomeownerTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +477,7 @@
 				3F05353F1CCA898300FCF2CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F0535401CCA898300FCF2CB /* Build configuration list for PBXNativeTarget "BNR_HomeownerUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +486,7 @@
 				3F0535421CCA898300FCF2CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
